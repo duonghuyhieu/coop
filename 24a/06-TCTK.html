@@ -225,13 +225,13 @@
             font-style: italic;
         }
         .border {
-            border-width: 1px;
+            border: 1px solid #000000;
         }
         .border-black	{
             border-color: rgb(0 0 0);
         }
         .border-t	{
-            border-top-width: 1px;
+            border-top: 1px solid #000000;
         }
 
         .border-collapse	{
@@ -243,68 +243,105 @@
 
         .border-t-2 {
             border-top: 2px solid #000000;
+}       
+.h-40px {
+    height: 40px;
 }
 
     </style>
 </head>
 <body>
-    <div class="mx-20 mt-16">
+    <div class="mx-8 mt-8">
         <div class="text-center">
-            <div class="flex justify-end italic mt-10" style="text-decoration: underline;">Mẫu 03b/TC - QTDND            </div>
+            <div class="flex justify-end italic mt-10 mb-4" style="text-decoration: underline;">Mẫu 06/TCTK</div>
             <div class="flex justify-around gap-20">
                 <div>            
                     <div class="font-semibold ml-4">NGÂN HÀNG HỢP TÁC</div>
-                    <div class="">Chi nhánh:………………</div>
-                    <div>-----------------------
+                    <div class="font-semibold">Đơn vị: ……………….
                     </div>
+                    <div class="w-32 border-t text-center border-black mx-auto"></div>
                 </div>
                 <div>            
                     <div class="text-lg font-semibold mb-2">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</div>
                     <div class="font-semibold">Độc lập - Tự do - Hạnh phúc</div>
-                    <div>-----------------------
-                    </div>
+                    <div class="w-32 border-t text-center border-black mx-auto"></div>
+
                 </div>
             </div>
             <div class="flex justify-end  mt-4 mr-8">……………, ngày… tháng … năm …</div>
         </div>
-        <h1 class="font-bold text-center mt-4">TỜ TRÌNH THẨM ĐỊNH        </div>
-        <div class="font-bold text-center mb-4">(Cho vay theo HMTC đối với thẻ ghi nợ cho cán bộ, nhân viên QTDND)        </div>
-        <div>Căn cứ vào hồ sơ xin vay vốn của Ông (Bà):…………………………………………………………….        </div>
-        <div>Nơi ở hiện tại:……………………………………………………………………………………………..        </div>
-        <div>Nơi ở hiện tại:……………………………………………………………………………………………..        </div>
-        <div>Tên cán bộ thẩm định:…………………………………………………………………………………….        </div>
-        <div>1. Đã thẩm định Phương án sử dụng vốn, gồm:        </div>
-        <div>- Mục đích sử dụng hạn mức: (Bù đắp nguồn tiền thiếu hụt tạm thời trong hoạt động thanh toán)        </div>
-        <div>- Nguồn thu nhập đảm bảo khả năng trả nợ:</div>
-        <div class="whitespace-break-spaces">                                                + Trả nợ khoản vay tại QTDND (nếu có):…………………………………………………….        </div>
-        <div class="whitespace-break-spaces">                                                + Trả nợ thấu chi tại NHHT:………………………………………..........................................        </div>
-        <div>- Tài liệu chứng minh khách hàng có giao dịch gửi vốn hoặc vay vốn và không có nợ xấu tại QTDND.</div>
-        <div>Ý kiến của cán bộ tín dụng về kết quả thẩm định:………………………………………………..        </div>
-        <div>2. Đề xuất của cán bộ tín dụng:        </div>
-        <div>- Hạn mức cho vay thấu chi đối với thẻ ghi nợ:…………………………………………...        </div>
-        <div>(Bằng chữ:……………………………………………………………………………………….)        </div>
-        <div>- Thời hạn: ………… tháng.        </div>
-        <div class="flex justify-around mt-8 mb-28">
-            <div>
-                <div class="font-bold">CÁN BỘ TÍN DỤNG    </div>
-                <div class="text-center">  (Ký, ghi rõ họ tên)                </div>
-            </div>
-            <div>
-                <div class="font-bold">TRƯỞNG PHÒNG ĐỀ NGHỊ                </div>
-                <div>Hạn mức cho vay thấu chi:…….                </div>
-                <div class="mt-4">Thời hạn: …………… tháng                </div>
+        <div class="mt-4">
+            <div class="font-semibold flex justify-center">ĐỀ NGHỊ PHÊ DUYỆT CHO VAY THEO HẠN MỨC THẤU CHI </div>                
+                <table class="w-full table-auto mt-4 border-collapse border border-black">
+                    <thead>
+                        <tr>
+                            <th class="border border-black px-4 py-2">STT</th>
+                            <th class="border border-black px-4 py-2">Tên khách hàng có dấu</th>
+                            <th class="border border-black px-4 py-2">Mã khách hàng</th>
+                            <th class="border border-black px-4 py-2">Số CMND</th>
+                            <th class="border border-black px-4 py-2">Số TK</th>
+                            <th class="border border-black px-4 py-2">HM cho vay thấu chi đã phê duyệt</th>
+                            <th class="border border-black px-4 py-2">Đề xuất HM cho vay thấu chi mới</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                        <tr class="h-[32px]">
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                        </tr>
+                        <tr class="h-[32px]">
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                        </tr>
+                        <tr class="h-[32px]">
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                        </tr>
+                        <tr class="h-[32px]">
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                            <td class="border border-black px-4 py-2"></td>
+                        </tr>
+                        <tr class="h-max-[32px]">
+                            <td class="border border-black px-4 py-2 text-center font-bold" colspan="6">Tổng cộng</td>
+                            <td class="border border-black px-4 py-2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="flex justify-around mt-16 mb-40">
+                <div>
+                    <div class="text-center font-semibold">Cán bộ tín dụng</div>
+                    <div class="text-center">(Ký, ghi rõ họ tên)</div>
+                </div>
+                <div>
+                    <div class="text-center font-semibold">Trưởng phòng tín dụng</div>
+                    <div class="text-center">(Ký, ghi rõ họ tên)</div>
+                </div>
+                <div>
+                    <div class="text-center font-semibold">Giám đốc chi nhánh</div>
+                    <div class="text-center">(Ký, đóng dấu)</div>
+                </div>
             </div>
         </div>
-        <div class="font-bold mb-40 text-center">           GIÁM ĐỐC (HOẶC NGƯỜI ĐƯỢC ỦY QUYỀN) PHÊ DUYỆT        </div>
-        <div></div>
-
-
-
-
-
-
-
-
     </div>
 </body>
 </html>

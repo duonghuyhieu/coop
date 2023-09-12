@@ -145,6 +145,30 @@
     border-right: 1px solid ;
 }
 
+.mt-16 {
+    margin-top: 64px;
+}
+
+.mt-10 {
+    margin-top: 40px;
+}
+
+.mt-4{
+    margin-top: 16px;
+}
+
+.mt-2 {
+    margin-top: 8px;
+}
+
+.mt-40 {
+    margin-top: 160px;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
     </style>
 </head>
 <body>
@@ -164,7 +188,7 @@
             </div>
         </div>
         <div class="font-bold text-center mt-4">Kính gửi: Ngân hàng Hợp tác Chi nhánh…………………………………………….        </div>
-        <div class="border-collapse border border-blue-500">
+        <div class="border-collapse border border-blue-500 mt-2">
             <div class="border-b border-blue-500 p-2 font-bold bg-blue-400	">
                 THÔNG TIN KHÁCH HÀNG
             </div>
@@ -172,10 +196,22 @@
                 <div>
                     Họ và tên (chữ in hoa): ………………………………………………………………………………...
                 </div>
-                <div class="whitespace-break-spaces">Ngày sinh………………………………………………….. Giới tính    ☐ Nam       ☐ Nữ</div>
-                <div class="whitespace-break-spaces">Số CMND/HC/CCCD:…………...............Ngày cấp:…./…../…….Nơi cấp………………………….</div>
+                <div class="flex">
+                    <div>
+                        Ngày sinh…………………………………………………..
+                    </div>
+                    <div class="whitespace-break-spaces">   Giới tính    ☐ Nam       ☐ Nữ</div>
+                </div>
+                <div class="flex">
+                    <div>Số CMND/HC/CCCD:…………...............</div>
+                    <div>Ngày cấp:…./…../…….</div>
+                    <div>Nơi cấp………………………….</div>
+                </div>
                 <div>Địa chỉ liên hệ:…………………………………………………………………………………………                </div>
-                <div>Điện thoại liên hệ:……………………………………Email:…………………………………………                </div>
+                <div class="flex">
+                    <div>Điện thoại liên hệ:……………………………………</div>
+                    <div> Email:…………………………………………</div>
+                </div>
             </div>
             <div class="border-b border-blue-500 p-2 font-bold bg-blue-400	">
                 TÔI ĐỀ NGHỊ CO-OPBANK CUNG CẤP CÁC DỊCH VỤ NGÂN HÀNG SAU ĐÂY
@@ -201,7 +237,7 @@
             <div class="border-b border-blue-500 p-2">
                 <div class="flex justify-between gap-0">
                     <div class="font-bold mr-2">4. Phương thức nhận mật khẩu </div>
-                    <div class="flex justify-around w-2-3		">
+                    <div class="flex justify-around w-2-3">
                         <div>☐ Tại quầy</div>
                         <div>☐ Qua SMS</div>
                         <div>☐ Qua Email</div>
@@ -250,12 +286,24 @@
                 <div>
                     Họ và tên (chữ in hoa): ………………………………………………………………………………...
                 </div>
-                <div class="whitespace-break-spaces">Ngày sinh………………………………………………….. Giới tính    ☐ Nam       ☐ Nữ</div>
+                <div class="flex">
+                    <div>
+                        Ngày sinh…………………………………………………..
+                    </div>
+                    <div class="whitespace-break-spaces">   Giới tính    ☐ Nam       ☐ Nữ</div>
+                </div>
                 <div class="flex">Tên in trên thẻ <div class="ml-2 italic">(chữ in hoa không dấu)</div> ………………………………………………………………                </div>
                 <div class="italic">(Tối đa 25 ký tự bao gồm cả khoảng trắng, trường hợp quá 25 ký tự yêu cầu viết tắt tên đệm)                </div>
-                <div class="whitespace-break-spaces">Số CMND/HC/CCCD:…………...............Ngày cấp:…./…../…….Nơi cấp………………………….</div>
-                <div>Địa chỉ liên hệ:…………………………………………………………………………………………</div>
-                <div>Điện thoại liên hệ:……………………………………Email:…………………………………………</div>
+                <div class="flex">
+                    <div>Số CMND/HC/CCCD:…………...............</div>
+                    <div>Ngày cấp:…./…../…….</div>
+                    <div>Nơi cấp………………………….</div>
+                </div>
+                <div>Địa chỉ liên hệ:…………………………………………………………………………………………                </div>
+                <div class="flex">
+                    <div>Điện thoại liên hệ:……………………………………</div>
+                    <div> Email:…………………………………………</div>
+                </div>
                 <div>Quan hệ với chủ thẻ chính……………………………………………………………………………..</div>
             </div>
             <div class="border-b border-blue-500 p-2">
@@ -263,12 +311,24 @@
                 <div>
                     Họ và tên (chữ in hoa): ………………………………………………………………………………...
                 </div>
+                <div class="flex">
+                    <div>
+                        Ngày sinh…………………………………………………..
+                    </div>
+                    <div class="whitespace-break-spaces">   Giới tính    ☐ Nam       ☐ Nữ</div>
+                </div>
                 <div class="flex">Tên in trên thẻ <div class="ml-2 italic">(chữ in hoa không dấu)</div> ………………………………………………………………                </div>
                 <div class="italic">(Tối đa 25 ký tự bao gồm cả khoảng trắng, trường hợp quá 25 ký tự yêu cầu viết tắt tên đệm)                </div>
-                <div class="whitespace-break-spaces">Ngày sinh………………………………………………….. Giới tính    ☐ Nam       ☐ Nữ</div>
-                <div class="whitespace-break-spaces">Số CMND/HC/CCCD:…………...............Ngày cấp:…./…../…….Nơi cấp………………………….</div>
-                <div>Địa chỉ liên hệ:…………………………………………………………………………………………</div>
-                <div>Điện thoại liên hệ:……………………………………Email:…………………………………………</div>
+                <div class="flex">
+                    <div>Số CMND/HC/CCCD:…………...............</div>
+                    <div>Ngày cấp:…./…../…….</div>
+                    <div>Nơi cấp………………………….</div>
+                </div>
+                <div>Địa chỉ liên hệ:…………………………………………………………………………………………                </div>
+                <div class="flex">
+                    <div>Điện thoại liên hệ:……………………………………</div>
+                    <div> Email:…………………………………………</div>
+                </div>
                 <div>Quan hệ với chủ thẻ chính……………………………………………………………………………..</div>
             </div>
             <div class="p-2">
@@ -276,16 +336,29 @@
                 <div>
                     Họ và tên (chữ in hoa): ………………………………………………………………………………...
                 </div>
+                <div class="flex">
+                    <div>
+                        Ngày sinh…………………………………………………..
+                    </div>
+                    <div class="whitespace-break-spaces">   Giới tính    ☐ Nam       ☐ Nữ</div>
+                </div>
                 <div class="flex">Tên in trên thẻ <div class="ml-2 italic">(chữ in hoa không dấu)</div> ………………………………………………………………                </div>
             </div>
         </div>
         <div class="border-collapse border border-blue-500 mt-40">
             <div class="border-b border-blue-500 p-2">
                 <div class="italic">(Tối đa 25 ký tự bao gồm cả khoảng trắng, trường hợp quá 25 ký tự yêu cầu viết tắt tên đệm)                </div>
-                <div class="whitespace-break-spaces">Ngày sinh………………………………………………….. Giới tính    ☐ Nam       ☐ Nữ</div>
-                <div class="whitespace-break-spaces">Số CMND/HC/CCCD:…………...............Ngày cấp:…./…../…….Nơi cấp………………………….</div>
-                <div>Địa chỉ liên hệ:…………………………………………………………………………………………</div>
-                <div>Điện thoại liên hệ:……………………………………Email:…………………………………………</div>
+            
+                <div class="flex">
+                    <div>Số CMND/HC/CCCD:…………...............</div>
+                    <div>Ngày cấp:…./…../…….</div>
+                    <div>Nơi cấp………………………….</div>
+                </div>
+                <div>Địa chỉ liên hệ:…………………………………………………………………………………………                </div>
+                <div class="flex">
+                    <div>Điện thoại liên hệ:……………………………………</div>
+                    <div> Email:…………………………………………</div>
+                </div>
                 <div>Quan hệ với chủ thẻ chính……………………………………………………………………………..</div>
             </div>
             <div class="border-b border-blue-500 p-2 font-bold">
